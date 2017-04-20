@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add Business Contact</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      Name <input type = "text" name = "name">
+      Phone<input type = "text" name = "phone">
+      Email<input type = "text" name = "email">
+      Description<input type = "textbox" name = "description">
+      Select Categories<select name = "CategoriesId" required>
+      <% for(let i = 0; i < categories.length;i++){
+        <option><%= categories[i].id%></option>
+      </select>
+      Select Cities<select name = "CitiesId" required>
+      <% for(let i = 0; i < cities.length;i++){
+        <option><%= cities[i].id%></option>
+      <button type = "submit">Submit</button>
+    </form>
+  </body>
+</html>

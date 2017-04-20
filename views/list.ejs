@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>ToDoList</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <table border = "1">
+      <thead>
+        <tr>
+          <th> NO </th>
+          <th> Business Name </th>
+          <th> Phone </th>
+          <th> Email </th>
+          <th> City </th>
+          <th> Category </th>
+          <th> Actions </th>
+        </tr>
+      </thead>
+      <tbody>
+          <% let i = 1; todos.forEach((bc)=>{ %>
+          <tr>
+            <td><%= i++ %> </td>
+            <td><a href = "#" ><%= bc.name %></a></td>
+            <td><%= bc.phone %></td>
+            <td><%= bc.email %></td>
+            <td><%= bc.city %></td>
+            <td><%= bc.category %></td>
+          <% }) %>
+      </tbody>
+    </table>
+  </body>
+</html>
