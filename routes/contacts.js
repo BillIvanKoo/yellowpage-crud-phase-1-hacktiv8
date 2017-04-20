@@ -72,13 +72,13 @@ router.post('/search/keyword', function(req, res){
 })
 router.post('/list/:value', function(req,res){
   if(req.params.value==="City"){
-    db.Contact.findAll({where: {name: {like: '%'+req.body.keyword+'%'}, CityId: req.body.value}, include: [db.Category, db.City]})
+    db.Contact.findAll({where: {name: {ilike: '%'+req.body.keyword+'%'}, CityId: req.body.value}, include: [db.Category, db.City]})
     .then((contacts)=>{
       res.render('list.ejs', {contacts:contacts})
     })
   }
   if(req.params.value==="Category"){
-    db.Contact.findAll({where: {name: {like: '%'+req.body.keyword+'%'}, CategoryId: req.body.value}, include: [db.Category, db.City]})
+    db.Contact.findAll({where: {name: {ilike: '%'+req.body.keyword+'%'}, CategoryId: req.body.value}, include: [db.Category, db.City]})
     .then((contacts)=>{
       res.render('list.ejs', {contacts:contacts})
     })
