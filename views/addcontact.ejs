@@ -5,18 +5,22 @@
     <title>Add Business Contact</title>
   </head>
   <body>
-    <form class="" action="index.html" method="post">
-      Name <input type = "text" name = "name">
-      Phone<input type = "text" name = "phone">
-      Email<input type = "text" name = "email">
-      Description<input type = "textbox" name = "description">
-      Select Categories<select name = "CategoriesId" required>
-      <% for(let i = 0; i < categories.length;i++){
-        <option><%= categories[i].id%></option>
+    <h1>Add Business Contact</h1>
+    <form action="/contacts/add" method="post">
+      <h3>Name</h3> <input type = "text" name = "name"><br>
+      <h3>Phone</h3><input type = "text" name = "phone"><br>
+      <h3>Email</h3><input type = "text" name = "email"><br>
+      <h3>Description</h3><textarea cols="30" rows="5" name = "description"></textarea><br>
+      <h3>Categories</h3><select name = "CategoryId" required>
+      <% for(let i = 0; i < categories.length;i++){%>
+        <option value="<%=categories[i].id%>"><%= categories[i].name%></option>
+        <%}%>
       </select>
-      Select Cities<select name = "CitiesId" required>
-      <% for(let i = 0; i < cities.length;i++){
-        <option><%= cities[i].id%></option>
+      <h3>Cities</h3><select name = "CityId" required>
+      <% for(let i = 0; i < cities.length;i++){%>
+        <option value="<%=cities[i].id%>"><%= cities[i].name%></option>
+        <%}%>
+        </select>
       <button type = "submit">Submit</button>
     </form>
   </body>

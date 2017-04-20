@@ -22,63 +22,63 @@ module.exports = {
       CityId: 14
     },{
       name: 'UD Agropolis ',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@agropolis.com',
       phone:'+1-202-555-0196',
       CategoryId: 2 ,
       CityId: 16
     },{
       name: 'PT Mina Jaya Sentosa',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'marketing@minajaya.com',
       phone:'+1-202-555-0196',
       CategoryId:3,
       CityId: 30
     },{
       name: 'CV Barokah Sejahtra',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'customer@barokahsejahtera.com',
       phone:'+1-202-555-0196',
       CategoryId:4,
       CityId: 24
     },{
       name: 'PT Bangun Jaya Kokoh',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@bangunkokoh.com',
       phone:'+1-202-555-0196',
       CategoryId:5,
       CityId: 4
     },{
       name: 'CV Mobilku',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@mobilku.com',
       phone:'+1-202-555-0196',
       CategoryId:6,
       CityId: 22
     },{
       name: 'PT Rits Calton Hotel',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'bussines@ritscalton.com',
       phone:'+1-202-555-0196',
       CategoryId:7,
       CityId: 20
     },{
       name: 'CV Kilau Berlian',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@kilaulian.com',
       phone:'+1-202-555-0196',
       CategoryId:8,
       CityId: 19
     },{
       name: 'CV Laut Biru Makmur',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@lautbiru.com',
       phone:'+1-202-555-0196',
       CategoryId:9,
       CityId: 11
     },{
       name: 'PT Forestra',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@forestra.com',
       phone:'+1-202-555-0196',
       CategoryId:10,
@@ -104,63 +104,63 @@ module.exports = {
       CityId: 14
     },{
       name: 'UD Agropolis ',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@agropolis.com',
       phone:'+1-202-555-0196',
       CategoryId: 2 ,
       CityId: 16
     },{
       name: 'PT Mina Jaya Sentosa',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'marketing@minajaya.com',
       phone:'+1-202-555-0196',
       CategoryId:3,
       CityId: 30
     },{
       name: 'CV Barokah Sejahtra',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'customer@barokahsejahtera.com',
       phone:'+1-202-555-0196',
       CategoryId:4,
       CityId: 24
     },{
       name: 'PT Bangun Jaya Kokoh',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@bangunkokoh.com',
       phone:'+1-202-555-0196',
       CategoryId:5,
       CityId: 4
     },{
       name: 'CV Mobilku',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@mobilku.com',
       phone:'+1-202-555-0196',
       CategoryId:6,
       CityId: 22
     },{
       name: 'PT Rits Calton Hotel',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'bussines@ritscalton.com',
       phone:'+1-202-555-0196',
       CategoryId:7,
       CityId: 20
     },{
       name: 'CV Kilau Berlian',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@kilaulian.com',
       phone:'+1-202-555-0196',
       CategoryId:8,
       CityId: 19
     },{
       name: 'CV Laut Biru Makmur',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@lautbiru.com',
       phone:'+1-202-555-0196',
       CategoryId:9,
       CityId: 11
     },{
       name: 'PT Forestra',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem.',
       email:'cs@forestra.com',
       phone:'+1-202-555-0196',
       CategoryId:10,

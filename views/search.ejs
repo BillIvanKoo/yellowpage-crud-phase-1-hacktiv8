@@ -5,10 +5,10 @@
     <title>Search</title>
   </head>
   <body>
-    <h2> Search Base On </h2>
-    <form action = "/search/:param" method = "post">
-    <select required>
-    <option value= "Category">Category</option>
+    <h2> Search Based On </h2>
+    <form action = "/contacts/search/keyword" method="post">
+    <select name="value" required>
+    <option value="Category">Category</option>
     <option value="City">City</option>
     </select><br>
       <button type = "submit"> Submit </button>

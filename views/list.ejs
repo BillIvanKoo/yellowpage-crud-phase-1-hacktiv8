@@ -1,11 +1,11 @@
 <html>
   <head>
-    <title>ToDoList</title>
+    <title>Search Result</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <table border = "1">
-      <thead>
+    <h1>Search Result</h1>
+    <table>
         <tr>
           <th> NO </th>
           <th> Business Name </th>
@@ -13,20 +13,20 @@
           <th> Email </th>
           <th> City </th>
           <th> Category </th>
-          <th> Actions </th>
         </tr>
-      </thead>
-      <tbody>
-          <% let i = 1; todos.forEach((bc)=>{ %>
+          <% for(let i=0; i<contacts.length;i++){%>
           <tr>
-            <td><%= i++ %> </td>
-            <td><a href = "#" ><%= bc.name %></a></td>
-            <td><%= bc.phone %></td>
-            <td><%= bc.email %></td>
-            <td><%= bc.city %></td>
-            <td><%= bc.category %></td>
-          <% }) %>
-      </tbody>
+            <td><%= i+1 %> </td>
+            <td><a href="/contacts/business/<%=contacts[i].id%>" ><%= contacts[i].name %></a></td>
+            <td><%= contacts[i].phone %></td>
+            <td><%= contacts[i].email %></td>
+            <td><%= contacts[i].City.name %></td>
+            <td><%= contacts[i].Category.name %></td>
+          </tr>
+          <% } %>
     </table>
+    <form action ="/">
+    <button type="submit" value="submit">Home</button>
+  </form><br>
   </body>
 </html>

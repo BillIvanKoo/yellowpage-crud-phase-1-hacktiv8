@@ -5,20 +5,23 @@
     <title>Keyword</title>
   </head>
   <body>
-    <form method = "Post">
-      Keyword<input type = "text">
-      <% if (b === City){ %>
-        <select name="" required>
-          <% for(let i = 0; i < City.length; i++){ %>
-          <option><%= City[i] %></option>
-        </select>
-        <%  }} %>
-      <% if (b === Category){ %>
-        <select name= "" required>
-          <% for(let i = 0; i < Category.length; i++){ %>
-          <option><%= Category[i] %></option>
-        </select>
-    <%  }} %>
+    <form method = "post" action="/contacts/list/<%=value%>">
+      Keyword    <input type = "text" name="keyword"><br>
+      <% if (value === "City"){ %>
+        <select name="value" required>
+          <% for(let i = 0; i < cities.length; i++){ %>
+          <option value="<%= cities[i].id %>"><%= cities[i].name %></option>
+        <%  } %>
+      </select><br>
+      <%  } %>
+      <% if (value === "Category"){ %>
+        <select name= "value" required>
+          <% for(let i = 0; i < categories.length; i++){ %>
+          <option value="<%= categories[i].id %>"><%= categories[i].name %></option>
+    <%  } %>
+  </select><br>
+  <%  } %>
+    <button type="submit">submit</button>
     </form>
   </body>
 </html>

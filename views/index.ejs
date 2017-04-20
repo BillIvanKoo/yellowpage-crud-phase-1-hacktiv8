@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Yellowpage</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1> Yellowpage by Bill,Stedy,Zulfikar</h1>
-    <a href="#">Add Business Contact</a>
-    <a href="#">Add Category</a>
-    <form action = "#">
+    <h1> Yellowpage by Bill, Stedy, Zulfikar</h1>
+    <a href="/contacts/add">Add Business Contact</a><br>
+    <a href="/categories/add">Add Category</a>
+    <form action = "contacts/search">
     <button type = "submit">Search</a></button>
     </form>
     <table>
@@ -23,11 +23,11 @@
       <% for (let i = 0; i < contacts.length; i++){ %>
         <tr>
             <td><%= i+1 %></td>
-            <td><%= contacts.name %></td>
-            <td><%= contacts.email %></td>
-            <td><%= contacts.phone %></td>
-            <td><%= contacts.City.name %></td>
-            <td><%= contacts.Category.name %></td>
+            <td><a href="/contacts/business/<%=contacts[i].id%>"><%= contacts[i].name %></a></td>
+            <td><%= contacts[i].email %></td>
+            <td><%= contacts[i].phone %></td>
+            <td><%= contacts[i].City.name %></td>
+            <td><%= contacts[i].Category.name %></td>
         </tr>
     <%  } %>
     </table>

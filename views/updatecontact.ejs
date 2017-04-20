@@ -2,22 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Add Business Contact</title>
+    <title>Update Business Contact</title>
   </head>
   <body>
-    <form action="" method="post">
-      Name <input type = "text" name = "name" values ="<%=contact.name%>">
-      Phone<input type = "text" name = "phone" values = "<%contact.phone%>">
-      Email<input type = "text" name = "Email" values = "<%contact.email%>">
-      Description<input type = "textbox" name = "description" values = "<%=contact.description%>">
-      <select name = "" required>
-      <% for(let i = 0; i < categories.length;i++){
-        <option value = "<%= categories[i].id%>"></option>
+    <h1>Update Business Contact</h1>
+    <form action="/contacts/update/<%=contact.id%>" method="post">
+      <h3>Name</h3> <input type = "text" name = "name" value="<%=contact.name%>"><br>
+      <h3>Phone</h3><input type = "text" name = "phone" value="<%=contact.phone%>"><br>
+      <h3>Email</h3><input type = "text" name = "email" value="<%=contact.email%>"><br>
+      <h3>Description</h3><textarea cols="30" rows="5" name = "description" value="<%=contact.description%>"></textarea><br>
+      <h3>Categories</h3><select name = "CategoryId" required>
+      <% for(let i = 0; i < categories.length;i++){%>
+        <option value="<%=categories[i].id%>" <%if(contact.CategoryId===categories[i].id){%>selected="selected"<%}%>><%= categories[i].name%></option>
+        <%}%>
       </select>
-      <select name = "" required>
-      <% for(let i = 0; i < cities.length;i++){
-        <option value = "<%= cities[i].id%>"></option>
-      </select>
+      <h3>Cities</h3><select name = "CityId" required>
+      <% for(let i = 0; i < cities.length;i++){%>
+        <option value="<%=cities[i].id%>" <%if(contact.CityId===cities[i].id){%>selected="selected"<%}%>><%= cities[i].name%></option>
+        <%}%>
+        </select>
       <button type = "submit">Submit</button>
     </form>
   </body>

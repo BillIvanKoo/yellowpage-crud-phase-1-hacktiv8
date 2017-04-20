@@ -12,7 +12,7 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    return queryInterface.bulkDelete('Categories',
+    return queryInterface.bulkInsert('Categories',
     [{
       name: 'Pertanian dan Perkebunan'
     },{
@@ -35,10 +35,7 @@ module.exports = {
       name: 'Kehutanan'
     },{
       name: 'Pengelola Objek Wisata'
-    }
-    ],{});
-  }
-};
+    }],{});
 
   },
 
