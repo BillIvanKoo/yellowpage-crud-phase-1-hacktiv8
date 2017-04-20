@@ -5,7 +5,31 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1> Yellowpage by Bill,Stedy,Zulfikar</h1>
+    <a href="#">Add Business Contact</a>
+    <a href="#">Add Category</a>
+    <form action = "#">
+    <button type = "submit">Search</a></button>
+    </form>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>City</th>
+        <th>Category</th>
+      </tr>
+      <% for (let i = 0; i < contacts.length; i++){ %>
+        <tr>
+            <td><%= i+1 %></td>
+            <td><%= contacts.name %></td>
+            <td><%= contacts.email %></td>
+            <td><%= contacts.phone %></td>
+            <td><%= contacts.City.name %></td>
+            <td><%= contacts.Category.name %></td>
+        </tr>
+    <%  } %>
+    </table>
   </body>
 </html>
