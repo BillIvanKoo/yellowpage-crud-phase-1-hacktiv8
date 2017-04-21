@@ -12,7 +12,7 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    return queryInterface.bulkDelete('Categories',
+    return queryInterface.bulkInsert('Categories',
     [{
       name: 'Pertanian dan Perkebunan'
     },{
