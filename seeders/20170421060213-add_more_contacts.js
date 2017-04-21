@@ -19,14 +19,14 @@ module.exports = {
       email:'contact@kebunku.com',
       phone:'(+62)74693287982',
       CategoryId: 1,
-      CityId: 37
+      CityId: 30
     },{
       name: 'UD Qlapa Makmur',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non.',
       email:'contact@qlapamak.com',
       phone:'(+62)7276382',
       CategoryId: 1,
-      CityId: 40
+      CityId: 14
     },{
       name: 'PT Traktor',
       description: 'Usaha yang bergerak di bidang penyediaan tebu mentah, hasil tebu langsung diambil dari kebun kami. Memiliki lahan seluas 250 hektar',
@@ -87,5 +87,20 @@ module.exports = {
       Example:
       return queryInterface.bulkDelete('Person', null, {});
     */
+    return queryInterface.bulkDelete('Contacts', [{
+      name: 'CV Kebunku',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non.',
+      email:'contact@kebunku.com',
+      phone:'(+62)74693287982',
+      CategoryId: 1,
+      CityId: 37
+    },{
+      name: 'UD Qlapa Makmur',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non.',
+      email:'contact@qlapamak.com',
+      phone:'(+62)7276382',
+      CategoryId: 1,
+      CityId: 40
+    }],{})
   }
 };
