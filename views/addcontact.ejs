@@ -36,7 +36,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Add Category</h2>
+                    <h2 class="section-heading">Add Business Contact</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -46,9 +46,22 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                  <h3> Category  Name </h3>
-                                    <input type="text" class="form-control"  name = "name" required data-validation-required-message="Please enter a category name.">
-                                    <button type="submit" value = "submit" class="btn btn-xl">Submit</button>
+                                  <form action="/contacts/add" method="post">
+                                    <h3>Name</h3> <input type = "text" name = "name"><br>
+                                    <h3>Phone</h3><input type = "text" name = "phone"><br>
+                                    <h3>Email</h3><input type = "text" name = "email"><br>
+                                    <h3>Description</h3><textarea cols="30" rows="5" name = "description"></textarea><br>
+                                    <h3>Categories</h3><select name = "CategoryId" required>
+                                    <% for(let i = 0; i < categories.length;i++){%>
+                                      <option value="<%=categories[i].id%>"><%= categories[i].name%></option>
+                                      <%}%>
+                                    </select>
+                                    <h3>Cities</h3><select name = "CityId" required>
+                                    <% for(let i = 0; i < cities.length;i++){%>
+                                      <option value="<%=cities[i].id%>"><%= cities[i].name%></option>
+                                      <%}%>
+                                    </select><br>
+                                    <button type = "submit" class = "btn btn-xl">Submit</button>
                             </div>
                         </div>
                     </form>
