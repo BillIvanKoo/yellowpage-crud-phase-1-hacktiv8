@@ -57,21 +57,21 @@ module.exports = {
       CityId: 4
     },{
       name: 'CV Samudra Jaya',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non.',
       email:'cs@samudrajaya',
       phone:'+63-68-3725-7368',
       CategoryId:9,
       CityId: 11
     },{
       name: 'PT Rotan Jaya',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non.',
       email:'cs@rotanjaya.com',
       phone:'+65-676-873-3764',
       CategoryId:10,
       CityId: 27
     },{
       name: 'PT Wahana Air Biru',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non. Cras at elit eget purus ornare rutrum ac posuere sem. Ut nec nunc tempus, tempus massa ac, bibendum arcu. Nunc et magna quis dolor iaculis semper.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis urna odio, ac consequat purus finibus non.',
       email:'cs@wahanaairbiru.com',
       phone:'+65-676-873-3764',
       CategoryId:11,
