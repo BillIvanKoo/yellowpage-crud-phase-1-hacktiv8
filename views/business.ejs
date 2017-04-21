@@ -6,19 +6,30 @@
   </head>
   <body>
     <h1><%=contact.name %></h1>
+    <h3>Description</h3>
     <%=contact.description%><br>
+    <h3>Email</h3>
     <%=contact.email %><br>
+    <h3>Phone Number</h3>
     <%=contact.phone %><br>
     <h3>Category</h3>
-    <%=contact.Category.name %><br>
+    <%=contact.Category.name%>
+    <br>
     <h3>City</h3>
-    <%=contact.City.name %><br>
-    <form action ="/contacts/update/<%=contact.id%>" method="get">
-    <button type="submit" value="submit">Update</button>
-  </form><br>
-    <form method = "post" action ="/contacts/delete/<%=contact.id%>">
-    <button type="submit" value="submit">Delete</button>
-  </form><br>
+    <%=contact.City.name %>
+    <br>
+    <br>
+    <table>
+      <tr>
+        <td><form action ="/contacts/update/<%=contact.id%>" method="get">
+        <button type="submit" value="submit">Update</button>
+      </form></td>
+      <td><form method = "post" action ="/contacts/delete/<%=contact.id%>">
+      <button type="submit" value="submit">Delete</button>
+    </form></td>
+      </tr>
+    </table>
+    <br>
   <form action ="/">
   <button type="submit" value="submit">Home</button>
 </form><br>

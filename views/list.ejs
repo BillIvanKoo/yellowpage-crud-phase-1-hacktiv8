@@ -21,7 +21,7 @@
             <td><%= contacts[i].phone %></td>
             <td><%= contacts[i].email %></td>
             <td><%= contacts[i].City.name %></td>
-            <td><%= contacts[i].Category.name %></td>
+            <%if(contacts[i].Category.name){%><td><%= contacts[i].Category.name %></td><%}%>
           </tr>
           <% } %>
     </table>

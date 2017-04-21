@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%=title%></title>
+  </head>
+  <body>
+    <h1>Choose category to <%=action%></h1>
+    <form action="/categories/<%=action%>" method="post">
+      <select name = "id" required>
+      <% for(let i = 0; i < categories.length;i++){%>
+        <option value="<%=categories[i].id%>"><%= categories[i].name%></option>
+        <%}%>
+      </select>
+      <button type = "submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -6,11 +6,26 @@
   </head>
   <body>
     <h1> Yellowpage by Bill, Stedy, Zulfikar</h1>
-    <a href="/contacts/add">Add Business Contact</a><br>
-    <a href="/categories/add">Add Category</a>
-    <form action = "contacts/search">
-    <button type = "submit">Search</a></button>
+    <table>
+      <tr>
+        <td>Category</td>
+        <td>  <form action="/categories/add">
+          <button type="submit">Add</button>
+        </form></td>
+        <td>  <form action="/categories/update">
+          <button type="submit">Update</button>
+        </form></td>
+      </tr>
+    </table>
+    <br>
+    <form action="/contacts/add">
+      <button type="submit">Add Business Contact</button>
     </form>
+    <a href="/contacts/add"></a><br>
+    <form action = "/contacts/search">
+    <button type = "submit">Search Contact</a></button>
+    </form>
+    <br>
     <table>
       <tr>
         <th>No</th>
